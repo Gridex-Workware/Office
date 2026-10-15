@@ -1,0 +1,19 @@
+__pycache__/
+.venv/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+build/
+dist/
+
+# Google 인증 정보 — 커밋 금지
+client_secret*.json
+credentials*.json
+token*.json
+spikes/.token.json
+
+# 검증 스크립트가 내려받은 문서
+spikes/out/
+
+# 작업 폴더 메타데이터
+.officesync/

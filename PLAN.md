@@ -41,6 +41,7 @@
 | 항목 | 기본값 |
 |---|---|
 | 사용자 | 1명 (본인) |
+| 계정 | gridex.biz Workspace — "내부" OAuth 앱 (검수 불필요, 로그인 만료 없음) |
 | OS | Windows (노트북) |
 | 언어 | Python 3.12 |
 | 편집기 | OS 기본 연결 프로그램 (ONLYOFFICE 권장) |
@@ -71,5 +72,4 @@
 |---|---|
 | .docx/.pptx 변환 시 서식 손실 (폰트, 스마트 칩, 연결된 차트 등) | 0단계에서 손실 목록 확인, 심하면 Google 오프라인 모드 권장 |
 | 덮어쓰기로 파일 ID·공유 설정이 바뀔 가능성 | 0단계 V2에서 확인, 문제가 있으면 대안 방식으로 |
-| 로그인 토큰 만료 (개인 Gmail + 테스트 모드 앱은 7일) | 탑승 전 `doctor`로 확인. 만료돼도 착륙 후 다시 로그인하면 됨 |
-| 회사 Workspace에서 앱 차단 | 관리자에게 앱 허용 요청 |
+| 회사 Workspace 정책으로 앱 차단 | [docs/setup-google-cloud.md](docs/setup-google-cloud.md) 5단계 관리자 설정 (Drive SDK 허용, 내부 앱 신뢰) |

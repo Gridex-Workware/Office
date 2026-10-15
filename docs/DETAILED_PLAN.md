@@ -98,7 +98,7 @@ else:                             "원래이름 (오프라인 편집본 2026-10-
 | ID | 작업 | 시간 |
 |---|---|---|
 | T0.1 | 저장소 골격: `pyproject.toml`, ruff, pytest, GitHub Actions(windows-latest) | 0.5d |
-| T0.2 | Google Cloud 프로젝트, Drive API 활성화, OAuth 데스크톱 클라이언트 생성 (회사 계정이면 동의 화면 "내부" + 관리자 허용) | 0.5d |
+| T0.2 | Google Cloud 프로젝트, Drive API 활성화, "내부" OAuth 데스크톱 클라이언트 생성, 관리자 설정 확인 — [setup-google-cloud.md](setup-google-cloud.md) | 0.5d |
 | T0.3 | **V1 내보내기 품질**: 실제로 기내에서 쓸 문서 3~5개를 .docx/.pptx로 받아 편집기에서 확인 (한글 폰트, 표, 이미지, 목록) | 0.5d |
 | T0.4 | **V2 덮어쓰기**: 문서 **사본**에 수정한 .docx를 `files.update`로 올려 확인 — 파일 ID·링크 유지, 버전 기록, 서식 | 0.25d |
 | T0.5 | **V5 편집기 동작**: 수정 없이 저장 시 변화, 잠금 파일 이름 패턴 | 0.25d |
