@@ -1,4 +1,7 @@
-# officesync
+# Office — officesync
+
+> 소속: [Gridex-Workware](https://github.com/Gridex-Workware) · 저장소: [Gridex-Workware/Office](https://github.com/Gridex-Workware/Office) · 공개
+
 
 Google Docs/Slides를 비행기 안(인터넷 없음)에서 ONLYOFFICE·한컴·Word로 편집하고,
 착륙 후 원래 Google 문서에 반영하는 도구입니다. 사용자 1명 기준입니다.
@@ -16,7 +19,7 @@ Google Docs/Slides를 비행기 안(인터넷 없음)에서 ONLYOFFICE·한컴·
 
    ```powershell
    powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
-   git clone https://github.com/gridex-khj/Office
+   git clone https://github.com/Gridex-Workware/Office
    cd Office
    git checkout ccr-e0901626-awj6z4
    uv sync
